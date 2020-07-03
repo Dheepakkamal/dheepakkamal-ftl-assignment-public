@@ -20,6 +20,6 @@ from json_api.UserActivityApi import UserActivityPeriod
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("json_api.urls")),
-    url(r'^UserActivityApi', UserActivityPeriod.as_view()),
+    url(r'^UserActivityApi/', UserActivityPeriod.as_view()),
 
 ]
