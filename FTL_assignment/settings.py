@@ -28,7 +28,7 @@ SECRET_KEY = '*imbifl!h8w_v%a*-remzefqhd)tp9o#r$v$(^mc6q)!cf_7dw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dheepakkamal-ftl.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['dheepakkamal-ftl.herokuapp.com', '127.0.0.1', '106.198.125.151']
 
 
 # Application definition
