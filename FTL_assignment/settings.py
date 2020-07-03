@@ -26,7 +26,7 @@ JSON_PATH = os.path.join(BASE_DIR, 'test_json.json')
 SECRET_KEY = '*imbifl!h8w_v%a*-remzefqhd)tp9o#r$v$(^mc6q)!cf_7dw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['dheepakkamal-ftl.herokuapp.com', '127.0.0.1']
 
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
