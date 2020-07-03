@@ -86,7 +86,7 @@ DATABASES = {
         'NAME': 'FTL_Json',
         'USER': 'postgres',
         'PASSWORD': 'Dheepak@10',
-        'HOST': '127.0.0.1', 'dheepakkamal-ftl.herokuapp.com',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
